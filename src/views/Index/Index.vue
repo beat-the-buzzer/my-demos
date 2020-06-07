@@ -6,9 +6,9 @@
         <myMenu></myMenu>
         <section class="">
           <el-col class="main-area" :span="21">
-            <transition>
+            <keep-alive>
               <router-view></router-view>
-            </transition>
+            </keep-alive>
           </el-col>
         </section>
       </el-row>

@@ -16,7 +16,7 @@
         </template>
         <el-menu-item-group title="">
           <el-menu-item index="/index/my-clipboard">Clipboard</el-menu-item>
-          <el-menu-item index="/index">待定</el-menu-item>
+          <el-menu-item index="/index/my-swiper">Swiper</el-menu-item>
         </el-menu-item-group>
       </el-submenu>
 

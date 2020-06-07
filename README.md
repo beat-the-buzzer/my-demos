@@ -15,6 +15,16 @@ npm install -S vue-router # 安装vue-router
 
 ### clipboard.js
 
+点击复制的功能：统一处理兼容问题
+
 ```shell
 npm install -S clipboard
+```
+
+### swiper.js
+
+轮播、滑动组件：实现一个官网上没有，但是很常见的例子
+
+```shell
+npm install -S swiper
 ```

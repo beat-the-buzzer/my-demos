@@ -3,6 +3,7 @@ import VueRouter from 'vue-router';
 
 import Index from '../views/Index/Index.vue'; // 首页
 import myClipboard from '../views/Index/components/Clipboard.vue'; // 复制的功能
+import mySwiper from '../views/Index/components/Swiper.vue'; // 轮播组件
 
 Vue.use(VueRouter);
 
@@ -24,6 +25,10 @@ const router = new VueRouter({
       path: '/index/my-clipboard',
       component: myClipboard,
       name: 'myClipboard'
+    }, {
+      path: '/index/my-swiper',
+      component: mySwiper,
+      name: 'mySwiper'
     }]
   }]
 });
