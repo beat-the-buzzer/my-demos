@@ -2,8 +2,9 @@ import Vue from 'vue';
 import VueRouter from 'vue-router';
 
 import Index from '../views/Index/Index.vue'; // 首页
-import myClipboard from '../views/Index/components/Clipboard.vue'; // 复制的功能
-import mySwiper from '../views/Index/components/Swiper.vue'; // 轮播组件
+import myClipboard from '../views/Index/js-demo/Clipboard.vue'; // 复制的功能
+import mySwiper from '../views/Index/js-demo/Swiper.vue'; // 轮播组件
+import mySVG from '../views/Index/other-demo/SVG.vue'; // SVG的方式使用iconfont
 
 Vue.use(VueRouter);
 
@@ -29,6 +30,10 @@ const router = new VueRouter({
       path: '/index/my-swiper',
       component: mySwiper,
       name: 'mySwiper'
+    },{
+      path: '/index/my-SVG',
+      component: mySVG,
+      name: 'mySVG'
     }]
   }]
 });

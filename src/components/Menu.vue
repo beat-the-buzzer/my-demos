@@ -11,10 +11,12 @@
     >
       <el-submenu index="1">
         <template slot="title">
-          <i class="el-icon-location"></i>
-          <span slot="title">JS插件</span>
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-js"></use>
+          </svg>
+          <span slot="title" class="pl16">JS Demo</span>
         </template>
-        <el-menu-item-group title="">
+        <el-menu-item-group title="" class="pl16">
           <el-menu-item index="/index/my-clipboard">Clipboard</el-menu-item>
           <el-menu-item index="/index/my-swiper">Swiper</el-menu-item>
         </el-menu-item-group>
@@ -22,10 +24,12 @@
 
       <el-submenu index="2">
         <template slot="title">
-          <i class="el-icon-location"></i>
-          <span slot="title">CSS Demo</span>
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-css"></use>
+          </svg>
+          <span slot="title" class="pl16">CSS Demo</span>
         </template>
-        <el-menu-item-group title="">
+        <el-menu-item-group title="" class="pl16">
           <el-menu-item index="/index">待定</el-menu-item>
           <el-menu-item index="/index">待定</el-menu-item>
         </el-menu-item-group>
@@ -33,14 +37,30 @@
   
       <el-submenu index="3">
         <template slot="title">
-          <i class="el-icon-location"></i>
-          <span slot="title">Vue Demo</span>
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-vue"></use>
+          </svg>
+          <span slot="title" class="pl16">Vue Demo</span>
         </template>
-        <el-menu-item-group title="">
+        <el-menu-item-group title="" class="pl16">
           <el-menu-item index="/index">待定</el-menu-item>
           <el-menu-item index="/index">待定</el-menu-item>
         </el-menu-item-group>
       </el-submenu>
+
+      <el-submenu index="4">
+        <template slot="title">
+          <svg class="icon" aria-hidden="true">
+            <use xlink:href="#icon-other"></use>
+          </svg>
+          <span slot="title" class="pl16">其他</span>
+        </template>
+        <el-menu-item-group title="" class="pl16">
+          <el-menu-item index="/index/my-svg">SVG</el-menu-item>
+          <el-menu-item index="/index">待定</el-menu-item>
+        </el-menu-item-group>
+      </el-submenu>
+
     </el-menu>
   </div>
 </template>
@@ -69,5 +89,8 @@ export default {
 .menu {
   width: 200px;
   position: absolute;
+}
+.pl16 {
+  padding-left: 16px;
 }
 </style>
