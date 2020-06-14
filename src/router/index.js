@@ -4,6 +4,7 @@ import VueRouter from 'vue-router';
 import Index from '../views/Index/Index.vue'; // 首页
 import myClipboard from '../views/Index/js-demo/Clipboard.vue'; // 复制的功能
 import mySwiper from '../views/Index/js-demo/Swiper.vue'; // 轮播组件
+import myQrcode from '../views/Index/js-demo/Qrcode.vue'; // 生成二维码的插件
 import mySVG from '../views/Index/other-demo/SVG.vue'; // SVG的方式使用iconfont
 import myMock from '../views/Index/other-demo/Mock.vue'; // Mock模拟数据
 
@@ -32,6 +33,10 @@ const router = new VueRouter({
       component: mySwiper,
       name: 'mySwiper'
     },{
+      path: '/index/my-qrcode',
+      component: myQrcode,
+      name: 'myQrcode'
+    }, {
       path: '/index/my-SVG',
       component: mySVG,
       name: 'mySVG'

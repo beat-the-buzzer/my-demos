@@ -74,3 +74,11 @@ import 'reset-css'; // 引入CSS重置的模块
 ```js
 import './common/iconfont'; // 引入SVG
 ```
+
+### qrcode
+
+生成二维码
+
+```shell
+npm install -S qrcode
+```
