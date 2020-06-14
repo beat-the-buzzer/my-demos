@@ -2,6 +2,11 @@
 
 使用`Vue-cli`和`Element-ui`把平时开发中遇到的例子写进去。
 
+```shell
+# 部署方法
+git subtree push --prefix=build origin gh-pages
+```
+
 ## 新建项目
 
 ```shell
