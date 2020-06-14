@@ -32,12 +32,40 @@ npm install -S clipboard
 
 ### swiper.js
 
-轮播、滑动组件：实现一个官网上没有，但是很常见的例子
+轮播、滑动组件：实现一个官网上没有，但是很常见的例子：
 
 ```shell
 npm install -S swiper
 ```
 
+### mockjs
+
+数据模拟
+
+```shell
+npm install -S mockjs
+```
+
+可以使用这个工具来模拟数据，是我们写demo的必备工具。
+
 ### reset.css
 
 去除不同浏览器之间的差异
+
+```shell
+npm install -S reset-css
+```
+
+直接在项目中引入就可以了：
+
+```js
+import 'reset-css'; // 引入CSS重置的模块
+```
+
+### iconfont——SVG
+
+使用SVG的方式引入图标，首先需要在[iconfont的网站](https://www.iconfont.cn/)上把需要的图标放到一个项目里，选择symbol，下面会出现一个地址。访问这个地址，就能看到一段js，将这个js引入项目中，就可以在项目中直接使用了。
+
+```js
+import './common/iconfont'; // 引入SVG
+```
