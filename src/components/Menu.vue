@@ -20,6 +20,7 @@
           <el-menu-item index="/index/my-clipboard">Clipboard</el-menu-item>
           <el-menu-item index="/index/my-swiper">Swiper</el-menu-item>
           <el-menu-item index="/index/my-qrcode">Qrcode</el-menu-item>
+          <el-menu-item index="/index/my-sortable">Sortable</el-menu-item>
         </el-menu-item-group>
       </el-submenu>
 

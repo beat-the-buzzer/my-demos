@@ -12,6 +12,7 @@ Mock.mock('/api/mock01/api01', {
   // 详细语法规范链接: https://www.jianshu.com/p/4579f40e6108
 });
 
+
 Mock.mock('/api/mock01/api02', {
   success: true,
   message:

@@ -82,3 +82,21 @@ import './common/iconfont'; // 引入SVG
 ```shell
 npm install -S qrcode
 ```
+
+### mescroll
+
+上拉加载下拉刷新的插件
+
+```shell
+npm install -S mescroll.js
+```
+
+### sortable.js
+
+拖动排序
+
+```shell
+npm install -S sortablejs
+```
+
+拖动排序，经常遇到的问题就是，在我们Vue或者React这样的框架中，如何让Data和页面中的DOM元素同步。
