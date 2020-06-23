@@ -1,6 +1,9 @@
 import Vue from 'vue';
 import VueRouter from 'vue-router';
 
+import my404 from '../views/Common/Notfound404.vue'; // 404页面
+import myWelcome from '../views/Common/Welcome.vue'; // 欢迎页
+
 import Index from '../views/Index/Index.vue'; // 首页
 import myClipboard from '../views/Index/js-demo/Clipboard.vue'; // 复制的功能
 import mySwiper from '../views/Index/js-demo/Swiper.vue'; // 轮播组件
@@ -21,11 +24,15 @@ const router = new VueRouter({
   linkActiveClass: 'active',
   routes: [{
     path: '/',
-    redirect: 'index'
+    component: myWelcome,
+    name: 'myWelcome'
   }, {
     path: '/index',
     component: Index,
     children: [{
+      path: '/index',
+      redirect: '/index/my-clipboard',
+    }, {
       path: '/index/my-clipboard',
       component: myClipboard,
       name: 'myClipboard'
@@ -45,11 +52,15 @@ const router = new VueRouter({
       path: '/index/my-SVG',
       component: mySVG,
       name: 'mySVG'
-    },{
+    }, {
       path: '/index/my-mock',
       component: myMock,
       name: 'myMock'
     }]
+  }, {
+    path: '*',
+    component: my404,
+    name: 'my404'
   }]
 });
 
