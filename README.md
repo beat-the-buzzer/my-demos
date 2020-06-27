@@ -100,3 +100,7 @@ npm install -S sortablejs
 ```
 
 拖动排序，经常遇到的问题就是，在我们Vue或者React这样的框架中，如何让Data和页面中的DOM元素同步。
+
+### Vue修饰符
+
+Vue修饰符，基本上都是官网上面的Demo

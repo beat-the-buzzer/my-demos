@@ -45,7 +45,7 @@
           <span slot="title" class="pl16">Vue Demo</span>
         </template>
         <el-menu-item-group title="" class="pl16">
-          <el-menu-item index="/index">待定</el-menu-item>
+          <el-menu-item index="/index/my-decorator-01">修饰符（上篇）</el-menu-item>
           <el-menu-item index="/index">待定</el-menu-item>
         </el-menu-item-group>
       </el-submenu>

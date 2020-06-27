@@ -11,6 +11,7 @@ import myQrcode from '../views/Index/js-demo/Qrcode.vue'; // 生成二维码的�
 import mySVG from '../views/Index/other-demo/SVG.vue'; // SVG的方式使用iconfont
 import myMock from '../views/Index/other-demo/Mock.vue'; // Mock模拟数据
 import mySortable from '../views/Index/js-demo/Sortable.vue'; // 拖动排序
+import myDecorator01 from '../views/Index/vue-demo/Decorator01.vue'; // Vue修饰符
 
 Vue.use(VueRouter);
 
@@ -56,7 +57,13 @@ const router = new VueRouter({
       path: '/index/my-mock',
       component: myMock,
       name: 'myMock'
-    }]
+    }, {
+      path: '/index/my-decorator-01',
+      component: myDecorator01,
+      name: 'myDecorator01'
+    },
+    
+  ]
   }, {
     path: '*',
     component: my404,
