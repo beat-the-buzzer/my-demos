@@ -12,6 +12,7 @@ import mySVG from '../views/Index/other-demo/SVG.vue'; // SVG的方式使用icon
 import myMock from '../views/Index/other-demo/Mock.vue'; // Mock模拟数据
 import mySortable from '../views/Index/js-demo/Sortable.vue'; // 拖动排序
 import myDecorator01 from '../views/Index/vue-demo/Decorator01.vue'; // Vue修饰符
+import myDecorator02 from '../views/Index/vue-demo/Decorator02.vue'; // Vue修饰符
 
 Vue.use(VueRouter);
 
@@ -61,8 +62,11 @@ const router = new VueRouter({
       path: '/index/my-decorator-01',
       component: myDecorator01,
       name: 'myDecorator01'
-    },
-    
+    }, {
+      path: '/index/my-decorator-02',
+      component: myDecorator02,
+      name: 'myDecorator02'
+    }
   ]
   }, {
     path: '*',

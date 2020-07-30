@@ -4,7 +4,7 @@
 
 ```shell
 # 部署方法
-git subtree push --prefix=build origin gh-pages
+git subtree push --prefix=dist origin gh-pages
 ```
 
 ## 新建项目
