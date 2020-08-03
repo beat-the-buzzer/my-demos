@@ -13,6 +13,7 @@ import myMock from '../views/Index/other-demo/Mock.vue'; // Mock模拟数据
 import mySortable from '../views/Index/js-demo/Sortable.vue'; // 拖动排序
 import myDecorator01 from '../views/Index/vue-demo/Decorator01.vue'; // Vue修饰符
 import myDecorator02 from '../views/Index/vue-demo/Decorator02.vue'; // Vue修饰符
+import myAES from '../views/Index/js-demo/AES.vue'; // AES加密
 
 Vue.use(VueRouter);
 
@@ -50,6 +51,10 @@ const router = new VueRouter({
       path: '/index/my-sortable',
       component: mySortable,
       name: 'mySortable'
+    }, {
+      path: '/index/my-aes',
+      component: myAES,
+      name: 'myAES'
     }, {
       path: '/index/my-SVG',
       component: mySVG,

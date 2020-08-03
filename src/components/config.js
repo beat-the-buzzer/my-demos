@@ -15,6 +15,9 @@ const menuConfig = [
       }, {
         text: 'Sortable',
         url: '/index/my-sortable',
+      },{
+        text: 'AES',
+        url: '/index/my-aes',
       },
     ]
   }, {

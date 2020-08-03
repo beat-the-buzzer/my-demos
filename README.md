@@ -104,3 +104,21 @@ npm install -S sortablejs
 ### Vue修饰符
 
 Vue修饰符，基本上都是官网上面的Demo
+
+### AES加密
+
+AES是一种对称的加密方式，加密模式主要有以下几种：
+
+1.电码本模式（Electronic Codebook Book (ECB)）
+2.密码分组链接模式（Cipher Block Chaining (CBC)
+3.计算器模式（Counter (CTR)）
+4.密码反馈模式（Cipher FeedBack (CFB)）
+5.输出反馈模式（Output FeedBack (OFB)）
+
+```shell
+npm install -S aes-js
+```
+
+内部的具体原理，有兴趣的话可以进一步去了解。
+
+我们在使用localStorage、SessionStorage把数据存在本地的时候，可以进行一次加密操作，提高数据的安全级别。
