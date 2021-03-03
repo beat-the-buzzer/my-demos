@@ -122,3 +122,5 @@ npm install -S aes-js
 内部的具体原理，有兴趣的话可以进一步去了解。
 
 我们在使用localStorage、SessionStorage把数据存在本地的时候，可以进行一次加密操作，提高数据的安全级别。
+
+### lib-flexible移动端适配

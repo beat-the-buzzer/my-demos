@@ -15,6 +15,8 @@ import myDecorator01 from '../views/Index/vue-demo/Decorator01.vue'; // Vue修�
 import myDecorator02 from '../views/Index/vue-demo/Decorator02.vue'; // Vue修饰符
 import myAES from '../views/Index/js-demo/AES.vue'; // AES加密
 
+import tailwindcss from '../views/Index/css-demo/Tailwindcss.vue'; // tailwindcss
+
 Vue.use(VueRouter);
 
 const originalPush = VueRouter.prototype.push
@@ -71,6 +73,10 @@ const router = new VueRouter({
       path: '/index/my-decorator-02',
       component: myDecorator02,
       name: 'myDecorator02'
+    }, {
+      path: '/index/tailwindcss',
+      component: tailwindcss,
+      name: 'tailwindcss'
     }
   ]
   }, {

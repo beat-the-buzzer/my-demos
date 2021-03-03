@@ -25,8 +25,8 @@ const menuConfig = [
     icon: '#icon-css',
     routerArr: [
       {
-        text: '待定',
-        url: '/index',
+        text: 'tailwindcss',
+        url: '/index/tailwindcss',
       }
     ]
   }, {
