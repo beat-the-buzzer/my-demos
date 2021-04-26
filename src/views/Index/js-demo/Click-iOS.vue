@@ -1,10 +1,12 @@
 <template>
   <div>
     <h2>iOS上的点击事件</h2>
-    <div class="flex">
+    <div class="">
       <!-- Trigger -->
       <div @click="dealClick('Vue自带的事件委托的处理')">Vue自带的事件委托的处理</div>
+      <button @click="dealClick('按钮的事件委托')">按钮的事件委托</button>
       <div class="test" id="test">div元素绑定的点击事件</div>
+      <button id="btn">按钮的点击</button>
     </div>
   </div>
 </template>
@@ -26,6 +28,9 @@ export default {
   mounted() {
     document.getElementById('test').addEventListener('click', () => {
       this.dealClick('div元素绑定的点击事件')
+    })
+    document.getElementById('btn').addEventListener('click', () => {
+      this.dealClick('按钮绑定的点击事件')
     })
   }
 };
