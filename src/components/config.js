@@ -15,9 +15,12 @@ const menuConfig = [
       }, {
         text: 'Sortable',
         url: '/index/my-sortable',
-      },{
+      }, {
         text: 'AES',
         url: '/index/my-aes',
+      }, {
+        text: 'Click-ios',
+        url: '/index/click-ios',
       },
     ]
   }, {
