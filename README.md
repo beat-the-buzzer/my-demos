@@ -7,6 +7,10 @@
 git subtree push --prefix=dist origin gh-pages
 ```
 
+访问地址：
+
+[https://beat-the-buzzer.github.io/my-demos](https://beat-the-buzzer.github.io/my-demos)
+
 ## 新建项目
 
 ```shell
