@@ -16,6 +16,7 @@ import myDecorator02 from '../views/Index/vue-demo/Decorator02.vue'; // Vue修�
 import myAES from '../views/Index/js-demo/AES.vue'; // AES加密
 
 import tailwindcss from '../views/Index/css-demo/Tailwindcss.vue'; // tailwindcss
+import afterContent from '../views/Index/css-demo/AfterContent.vue'; // 伪类修改
 import clickIos from '../views/Index/js-demo/Click-iOS.vue'
 
 Vue.use(VueRouter);
@@ -78,6 +79,10 @@ const router = new VueRouter({
       path: '/index/tailwindcss',
       component: tailwindcss,
       name: 'tailwindcss'
+    }, {
+      path: '/index/afterContent',
+      component: afterContent,
+      name: 'afterContent'
     }, {
       path: '/index/click-ios',
       component: clickIos,

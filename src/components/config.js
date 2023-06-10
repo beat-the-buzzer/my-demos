@@ -30,6 +30,10 @@ const menuConfig = [
       {
         text: 'tailwindcss',
         url: '/index/tailwindcss',
+      },
+      {
+        text: '伪类内容修改',
+        url: '/index/afterContent',
       }
     ]
   }, {
