@@ -1,4 +1,4 @@
-A<template>
+<template>
   <div>
     <h2>伪类修改</h2>
     <div>在某些业务场景下，我们需要使用js修改伪类的样式。但是我们发现，我们没有办法通过JavaScript选择器去选中伪类元素。</div>

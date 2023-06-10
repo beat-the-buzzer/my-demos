@@ -17,6 +17,7 @@ import myAES from '../views/Index/js-demo/AES.vue'; // AES加密
 
 import tailwindcss from '../views/Index/css-demo/Tailwindcss.vue'; // tailwindcss
 import afterContent from '../views/Index/css-demo/AfterContent.vue'; // 伪类修改
+import triangle from '../views/Index/css-demo/Triangle.vue'
 import clickIos from '../views/Index/js-demo/Click-iOS.vue'
 
 Vue.use(VueRouter);
@@ -83,6 +84,10 @@ const router = new VueRouter({
       path: '/index/afterContent',
       component: afterContent,
       name: 'afterContent'
+    }, {
+      path: '/index/triangle',
+      component: triangle,
+      name: 'triangle'
     }, {
       path: '/index/click-ios',
       component: clickIos,
